@@ -7,9 +7,9 @@
 }
 
 .Section-charts {
-    display: flex;
-    margin-top: 15px;
-    justify-content: space-between;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
 }
 
 .quantity-acts {
@@ -30,14 +30,13 @@
   font-size: 13px;
 }
 
-
-.quantity-acts h4{
-    cursor: pointer;
+.quantity-acts h4 {
+  cursor: pointer;
 }
 
-.numRows{
-    width: 100%;
-    font-size: 15px;
+.numRows {
+  width: 100%;
+  font-size: 15px;
 }
 
 .circleQua {
@@ -57,11 +56,23 @@
   font-weight: bolder;
 }
 
+.content-charts {
+  width: 82%;
+  background-color: #fbfafa;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+}
 
-.content-charts{
-    width: 80%;
-    background-color: #fbfafa;
-    border-radius: 20px;
+.modulesCards {
+  margin-top: 40px;
+  width: 300px;
+  height: 200px;
+  background-color: #8f62ff;
+  border: 1px solid #8f62ff;
+  padding: 20px;
+  border-radius: 20px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);

@@ -5,6 +5,7 @@ import { FiActivity } from "react-icons/fi";
 import { FaCircleUser } from "react-icons/fa6";
 import { IoLogOutOutline } from "react-icons/io5";
 import {NavLink } from "react-router-dom";
+import React from "react";
 
 export const SideBar = () => {
   return (

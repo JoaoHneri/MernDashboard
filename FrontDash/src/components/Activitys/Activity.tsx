@@ -2,11 +2,12 @@ import './Activity.css'
 import { MdOutlinePendingActions } from "react-icons/md";
 import { SiProgress } from "react-icons/si";
 import { MdFileDownloadDone } from "react-icons/md";
+import React from 'react';
 
-const Activity = ({ number, status, total}) => {
+const Activity = ({ numero, status, total}) => {
 
   const Icon = () =>{
-    if(status === "Pendente"){
+    if(status === "Pendente"){  
       return <MdOutlinePendingActions/>
     }else if(status === "Em andamento"){
       return <SiProgress/>
@@ -17,7 +18,7 @@ const Activity = ({ number, status, total}) => {
   }
 
   const calcPorcentagem = () =>{
-    const porcent = (number/total) * 100;
+    const porcent = (numero/total) * 100;
     return porcent
   }
   
@@ -28,7 +29,7 @@ const Activity = ({ number, status, total}) => {
       </div>
       <div className="infosCardsD">
       <div className="num-est">
-        <p>{number}</p>  <span>{calcPorcentagem().toFixed(2)}%</span>
+        <p>{numero}</p>  <span>{calcPorcentagem().toFixed(2)}%</span>
       </div>
       <div className="infoAct">
         <p>{status}</p>
